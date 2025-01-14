@@ -36,6 +36,7 @@ a.navbar-brand:hover {
 #mainNav {
 }
 .nav-logo {
+  margin-top: 16px;
   width: 30vw;
 }
 .layer {
