@@ -35,7 +35,7 @@ const loadTokenAsset = function() {
     })
     //.then(response => setMainAsset(response['tokens'][0].token.image))
     .catch(err => raiseError(err));
-
+  $('#download_button').unbind('click');
   $('#download_button').click(function() {
     if (loaded) {
       canvas = document.getElementById('pfp');
