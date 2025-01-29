@@ -207,6 +207,7 @@ a.navbar-brand:hover {
   }
   .primary_button {
     font-size: 18px;
+    width: 40vw;
   }
   .clear {
     display: block;
