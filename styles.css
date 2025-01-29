@@ -1,23 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
-@font-face {
-  font-family: 'Permanent Marker', sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css?family=Astronomus&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Milonga&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 html, body {
   scroll-behavior: smooth;
 }
 body {
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  background-color: #1C8C6C;
-  color: #000;
+  background-color: #000;
+  color: #FFFFFF;
 }
 h1 {
-  font-family: 'Permanent Marker', sans-serif;
-  font-size: 52px;
-  text-transform: uppercase;
-  color: #f6885e;
+  font-family: 'Milonga', sans-serif;
+  font-size: 50px;
+  color: #FFFFFF;
 }
 a, a:hover {
   color: #FFFFFF;
@@ -36,7 +33,7 @@ a.navbar-brand:hover {
 #mainNav {
 }
 .nav-logo {
-  width: 30vw;
+  width: 40vw;
 }
 .layer {
   display: block;
@@ -50,7 +47,7 @@ a.navbar-brand:hover {
   height: 30vw;
 }
 #download_button, #find_button {
-  width: 20vw;
+  width: 15vw;
   display: inline-block;
 }
 #token_id {
@@ -112,21 +109,21 @@ a.navbar-brand:hover {
   color: black;
 }
 .primary_button {
-  background: #1C8C6C;
-  color: #000;
-  font-size: 28px;
+  background: #000;
+  color: #FFFFFF;
+  font-size: 20px;
   font-weight: 900;
   padding: 10px;
   cursor: pointer;
   display: block;
   text-align: center;
-  border: 2px solid #000;
+  border: 2px solid #FFFFFF;
   border-radius: 10px;
   margin: 4px auto;
 }
 .primary_button:hover {
-  background: #000;
-  color: #1C8C6C;
+  background: #FFFFFF;
+  color: #000;
 }
 .overlay_section {
   padding: 10px;
@@ -175,10 +172,7 @@ a.navbar-brand:hover {
 }
 @media only screen and (max-width: 990px) {
   .nav-logo {
-    width: 80vw;
-  }
-  #token_id {
-    width: 100%;
+    width: 60vw;
   }
   .header-img {
     width: 60%;
@@ -226,7 +220,7 @@ a.navbar-brand:hover {
     text-align: left;
   }
   #download_button, #find_button {
-    width: 95vw;
+    width: 20vw;
   }
   .overlay_select img {
     width: 50px;
